@@ -1,11 +1,4 @@
 # Gera o APK do OrganizaFacil.
-#
-# O compilador C++ do Android (ninja) nao aceita caminhos com mais de 260
-# caracteres no Windows, e dentro de "Downloads\PROJETO SAMUEL" o projeto passa
-# desse limite. Por isso este script copia o projeto para uma pasta curta
-# (C:\ofa), compila la e traz o APK de volta.
-#
-# Uso (PowerShell, dentro desta pasta):   .\gerar-apk.ps1
 
 $ErrorActionPreference = 'Stop'
 $origem = $PSScriptRoot
